@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-require_relative 'plugin_template/version'
+require_relative 'my_plugin/version'
 
 module RgGen
-  module PluginTemplate
+  module MyPlugin
     PLUGIN_FILES = [
-      'plugin_template/bit_field/type/foo'
+      'my_plugin/bit_field/type/foo'
     ].freeze
 
     def self.default_setup(_builder)
