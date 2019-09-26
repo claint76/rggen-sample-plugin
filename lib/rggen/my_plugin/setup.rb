@@ -7,5 +7,5 @@ require 'rggen/default'
 require 'rggen/my_plugin'
 
 RgGen.setup :'rggen-my-plugin', RgGen::MyPlugin do |builder|
-  builder.enable :bit_field, :type, [:foo]
+  builder.enable :bit_field, :type, [:counter]
 end

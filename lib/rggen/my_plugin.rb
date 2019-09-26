@@ -5,7 +5,7 @@ require_relative 'my_plugin/version'
 module RgGen
   module MyPlugin
     PLUGIN_FILES = [
-      'my_plugin/bit_field/type/foo'
+      'my_plugin/bit_field/type/counter'
     ].freeze
 
     def self.default_setup(_builder)
